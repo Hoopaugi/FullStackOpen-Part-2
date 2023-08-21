@@ -13,7 +13,7 @@ const Persons = ({ persons }) => {
       <h2>Numbers</h2>
       <table>
         <tbody>
-          {persons.map(person => <Person key={person.name} person={person} />)}
+          {persons.map(person => <Person key={person.id} person={person} />)}
         </tbody>
       </table>
     </>
