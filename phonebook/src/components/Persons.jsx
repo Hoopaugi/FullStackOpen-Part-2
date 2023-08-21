@@ -14,7 +14,7 @@ const Persons = ({ persons, handleRemove }) => {
       <h2>Numbers</h2>
       <table>
         <tbody>
-          {persons.map(person => <Person key={person.id} person={person} handleRemove={() => handleRemove(person.id)} />)}
+          {persons.map(person => <Person key={person.id} person={person} handleRemove={() => handleRemove(person)} />)}
         </tbody>
       </table>
     </>
